@@ -1,0 +1,29 @@
+Insertion Sort dersinde birçok kişi selection sort ile karıştırıldığını yazmasına rağmen videoda anlatılan kurallara göre yaptım.
+  [22,27,16,2,18,6]    Verilen dizinin sort türüne göre aşamalarını yazınız.
+1-	[22,27,16,2,18,6]
+2-	[2,27,16,22,18,6]
+3-	[2,6,16,22,18,27]
+4-	[2,6,16,18,22,27]
+5-	[2,6,16,18,22,27]
+6-	[2,6,16,18,22,27]
+
+
+ Big-o gösterimini yazınız. 
+1’den n’e kadar olan sayıların toplam formülü : (n.n+1)/2 olduğu için n^2 
+
+Time Complexity: Avarage case : Aradığımız sayının ortada olması.Worst case : Aradığımız sayının sonda olması.Best case : Aradığımız sayının başta olması.
+Avarage case: n^2
+Worst case : n^2
+Best case: n
+
+Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer?
+
+[2,6,16,18,22,27]  dizisinde 18 sayısı ortada olduğu için avarage case’dir.
+
+[ 7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort’a göre ilk 4 adımını yazınız.
+  [7,3,5,8,2,9,4,15,6]
+1-	[2,3,5,8,7,9,4,15,6]
+2-	[2,3,5,8,7,9,4,15,6]
+3-	[2,3,4,8,7,9,5,15,6]
+4-	[2,3,4,5,7,9,8,15,6]
+
